@@ -1,3 +1,5 @@
+require_relative '../lib/dog'
+require_relative '../lib/person'
 describe 'Person' do
   describe '#initialize' do
     it 'sets the name of the person in an instance variable @name' do
